@@ -24,7 +24,8 @@ $(document).ready(function () {
         }
 
         if (timeCheck === null) window.localStorage.setItem(time, "")
-        if (timeCheck.length > 0) $(timeId).attr("value", window.localStorage.getItem(time))
+        if (timeCheck.length > 0) 
+        $(timeId).attr("value", window.localStorage.getItem(time))
     })
 
 
