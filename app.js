@@ -2,12 +2,12 @@ $(document).ready(function () {
 
     console.log(parseInt(moment().format('H')))
 
-    const currentTime = moment().format('Do YYYY MMMM')
+    const currentTime = moment().format('MMMM Do YYYY, h:mm a')
     $("#currentTime").text(currentTime)
     $("span").attr("style", "width: 75px")
     $("button").text("Submit")
 
-    const times = [21, 22, 23, 24, 25, 26, 27, 28, 29]
+    const times = [9, 10, 11, 12, 13, 14, 15, 16, 17]
 
     times.forEach(time => {
         const timeCheck = window.localStorage.getItem(time)
