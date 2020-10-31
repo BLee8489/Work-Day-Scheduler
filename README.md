@@ -19,7 +19,7 @@ THEN the saved events persist
 
 DEPLOY LINK
 https://blee8489.github.io/Work-Day-Scheduler/
-<br>
+
 MOCK UP:
 <img width="917" alt="SS1" src="https://user-images.githubusercontent.com/71522463/97791860-49ab3980-1b94-11eb-9a9b-1ee6dd57c53e.png">
 <img width="906" alt="SS2" src="https://user-images.githubusercontent.com/71522463/97791862-4c0d9380-1b94-11eb-9d49-fb6f1a59b64d.png">
