@@ -7,7 +7,7 @@ $(document).ready(function () {
     $("span").attr("style", "width: 75px")
     $("button").text("Submit")
 
-    const times = [9, 10, 11, 12, 13, 14, 15, 16, 17]
+    const times = [9, 10, 11, 12, 13, 14, 15, 16, ]
 
     times.forEach(time => {
         const timeCheck = window.localStorage.getItem(time)
@@ -24,8 +24,8 @@ $(document).ready(function () {
         }
 
         if (timeCheck === null) window.localStorage.setItem(time, "")
-        if (timeCheck.length > 0) 
-        $(timeId).attr("value", window.localStorage.getItem(time))
+        if (timeCheck.length > 0)
+            $(timeId).attr("value", window.localStorage.getItem(time))
     })
 
 
